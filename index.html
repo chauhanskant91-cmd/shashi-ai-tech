@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Shashi AI Tech: practical AI tools, free browser utilities, technology guides and Hindi tutorials in simple Hindi and English.">
+<link rel="canonical" href="https://shashi-ai-tech.pages.dev/">
+<meta name="theme-color" content="#080b14">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:title" content="Shashi AI Tech — Explore the Future">
+<meta property="og:description" content="AI, technology and digital skills made simple in Hindi and English.">
+<title>Shashi AI Tech | AI • Technology • Innovation</title>
+<style>
+:root{--bg:#080b14;--bg2:#0d1322;--panel:#111a2d;--panel2:#151f36;--text:#f5f7ff;--muted:#a7b2c8;--cyan:#62e4ff;--violet:#9c88ff;--line:rgba(255,255,255,.12);--green:#7ee0b1;--shadow:0 22px 65px rgba(0,0,0,.28)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:88px}body{margin:0;background:radial-gradient(ellipse at 82% 5%,#20234c 0,transparent 29%),radial-gradient(ellipse at 4% 34%,#102a3c 0,transparent 25%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.65}a{color:inherit;text-decoration:none}button,input,textarea,select{font:inherit}.wrap{width:min(1160px,92%);margin:auto}.muted{color:var(--muted)}.topbar{border-bottom:1px solid var(--line);background:#080b14cc}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:900;letter-spacing:.3px;font-size:1.22rem;white-space:nowrap}.brand span,.gradient{background:linear-gradient(90deg,var(--cyan),var(--violet));background-clip:text;color:transparent}.links{display:flex;gap:23px;color:#c0c9dc;font-size:.92rem}.links a:hover{color:var(--cyan)}.nav-actions{display:flex;align-items:center;gap:10px}.menu{display:none;background:#121b30;border:1px solid var(--line);color:white;border-radius:12px;padding:9px 12px}.pill{display:inline-flex;align-items:center;gap:8px;border:1px solid #62e4ff55;color:var(--cyan);background:#62e4ff0d;border-radius:99px;padding:7px 13px;font-size:.8rem;letter-spacing:.5px}.dot{width:7px;height:7px;border-radius:50%;background:var(--cyan);box-shadow:0 0 14px var(--cyan)}
+.hero{min-height:630px;display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:32px;padding:72px 0 80px}.hero h1{font-size:clamp(3rem,6.6vw,5.7rem);line-height:1.02;letter-spacing:-3px;margin:24px 0 20px}.hero h1 em{font-style:normal;background:linear-gradient(100deg,#58e6ff,#a18bff 75%);background-clip:text;color:transparent}.lead{font-size:1.12rem;color:#b5bfd3;max-width:650px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{border:1px solid var(--line);border-radius:13px;padding:12px 18px;display:inline-flex;align-items:center;justify-content:center;gap:9px;font-weight:750;cursor:pointer;transition:.2s;background:#121a2b;color:var(--text)}.btn:hover,.card:hover{transform:translateY(-3px);border-color:#62e4ff66}.primary{background:linear-gradient(100deg,#4bdcf5,#9680ff);color:#07101b;border:0}.small{padding:8px 12px;font-size:.88rem}.visual{min-height:430px;position:relative;display:grid;place-items:center}.orb{width:min(350px,72vw);aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 32% 25%,#efffff 0,#8deaff 5%,#66a6ff 17%,#6554c4 43%,#151b3a 72%);box-shadow:0 0 35px #637aff66,0 0 100px #637aff44,inset -25px -30px 65px #070b16;position:relative;isolation:isolate;animation:orbFloat 6s ease-in-out infinite}.orb:before,.orb:after{content:"";position:absolute;inset:-26px;border:1px solid #7edfff99;border-radius:50%;transform:rotate(-25deg) scaleY(.35);box-shadow:0 0 18px #62e4ff33;animation:orbitOne 11s linear infinite;z-index:3;pointer-events:none}
+.orb:after{inset:-42px;transform:rotate(55deg) scaleY(.48);border-color:#a18cffaa;box-shadow:0 0 24px #a18cff44;animation:orbitTwo 16s linear infinite reverse}
+.orb .orb-surface{position:absolute;inset:0;border-radius:50%;z-index:1;pointer-events:none;background:conic-gradient(from 0deg,transparent,#75eaff66 45deg,transparent 95deg,#a18cff77 165deg,transparent 220deg,#70dfff66 290deg,transparent);mix-blend-mode:screen;filter:blur(8px);animation:surfaceSpin 9s linear infinite}
+.orb .orb-shine{position:absolute;inset:0;border-radius:50%;z-index:2;pointer-events:none;background:radial-gradient(ellipse at 30% 22%,#e4ffff99 0,transparent 19%),radial-gradient(ellipse at 70% 78%,#080b1699 0,transparent 47%);box-shadow:inset -28px -30px 55px #050816aa,inset 10px 8px 24px #b6f5ff44}
+@keyframes surfaceSpin{to{transform:rotate(360deg)}}
+@keyframes orbitOne{from{transform:rotate(-25deg) scaleY(.35)}to{transform:rotate(335deg) scaleY(.35)}}
+@keyframes orbitTwo{from{transform:rotate(55deg) scaleY(.48)}to{transform:rotate(415deg) scaleY(.48)}}
+@keyframes orbFloat{0%,100%{translate:0 0}50%{translate:0 -10px}}.float{position:absolute;background:#10192deF;border:1px solid var(--line);padding:11px 15px;border-radius:14px;box-shadow:var(--shadow);font-size:.9rem;backdrop-filter:blur(12px)}.f1{top:14%;left:0}.f2{right:0;bottom:17%}.f3{top:8%;right:5%}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:28px;max-width:560px}.stat{padding:14px 16px;border:1px solid var(--line);border-radius:15px;background:#111a2d99}.stat b{display:block;font-size:1.1rem}.stat span{font-size:.8rem;color:var(--muted)}section{padding:76px 0}.section-head{max-width:690px;margin-bottom:30px}.kicker{font-size:.78rem;color:var(--cyan);letter-spacing:2px;text-transform:uppercase;font-weight:850}.section-head h2{font-size:clamp(2rem,4vw,3rem);line-height:1.15;margin:8px 0}.section-head p{color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.card{background:linear-gradient(145deg,#151f36,#0e1527);border:1px solid var(--line);border-radius:21px;padding:23px;transition:.2s;box-shadow:0 10px 32px #0001}.card h3{margin:0 0 7px;font-size:1.12rem}.card p{margin:0;color:var(--muted);font-size:.94rem}.ico{width:48px;height:48px;border-radius:15px;background:#62e4ff16;display:grid;place-items:center;font-size:1.45rem;margin-bottom:16px}.card-link{display:inline-flex;margin-top:17px;color:var(--cyan);font-weight:750;font-size:.9rem}.card-link:hover{text-decoration:underline}.feature-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.mini{padding:17px;border:1px solid var(--line);background:#111a2d99;border-radius:17px}.mini b{display:block;margin:5px 0}.mini span{color:var(--muted);font-size:.86rem}.toolbar{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:22px 0}.search{flex:1;min-width:210px;background:#0e1628;border:1px solid var(--line);color:white;padding:12px 15px;border-radius:12px;outline:none}.search:focus,textarea:focus,input:focus{border-color:var(--cyan)}.filters{display:flex;gap:8px;flex-wrap:wrap}.filter{background:#111a2d;color:#c4cde0;border:1px solid var(--line);padding:8px 12px;border-radius:99px;cursor:pointer;font-size:.86rem}.filter.active{background:#62e4ff1b;color:var(--cyan);border-color:#62e4ff77}.tool-card{min-height:205px;display:flex;flex-direction:column}.tool-card .card-link{margin-top:auto;padding-top:16px}.note{border:1px solid #eacb7655;background:#eacb7610;border-radius:13px;padding:13px 15px;color:#e9d8a9;font-size:.88rem;margin-top:18px}.split{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:stretch}.panel{background:linear-gradient(145deg,#151f36,#0e1527);border:1px solid var(--line);border-radius:22px;padding:24px}.panel h3{margin-top:0}.toolbox textarea{width:100%;min-height:130px;background:#080e1b;border:1px solid var(--line);color:white;padding:13px;border-radius:12px;resize:vertical}.toolbox .row{display:flex;gap:9px;flex-wrap:wrap;margin-top:11px}.result{margin-top:12px;color:var(--green);font-size:.9rem;min-height:24px}.about{display:grid;grid-template-columns:.8fr 1.2fr;gap:35px;align-items:center}.aboutbox{padding:32px;border-radius:25px;background:linear-gradient(145deg,#172746,#171333);border:1px solid var(--line)}.aboutbox strong{font-size:clamp(2.1rem,5vw,3.2rem);display:block;background:linear-gradient(90deg,var(--cyan),var(--violet));background-clip:text;color:transparent}.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:17px}.tag{border:1px solid var(--line);padding:6px 11px;border-radius:99px;color:#d4def2;font-size:.82rem}.video-box{background:linear-gradient(110deg,#17334b,#27204d);border:1px solid #7b9bff44;border-radius:23px;padding:27px;display:flex;justify-content:space-between;align-items:center;gap:20px}.video-box h3{font-size:1.45rem;margin:0 0 6px}.video-box p{color:var(--muted);margin:0}.cta{padding:40px;border-radius:25px;background:linear-gradient(110deg,#17334b,#27204d);border:1px solid #7b9bff44;display:flex;justify-content:space-between;align-items:center;gap:20px}.cta h2{margin:0 0 7px;font-size:2rem}.cta p{margin:0;color:var(--muted)}.contact-form{display:grid;gap:11px}.contact-form input,.contact-form textarea{width:100%;background:#080e1b;border:1px solid var(--line);border-radius:11px;padding:12px;color:white}.contact-form textarea{min-height:110px;resize:vertical}.legal{font-size:.84rem;color:#91a0ba}.footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:.88rem}.foot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}.footlinks{display:flex;gap:16px;flex-wrap:wrap}.hidden{display:none!important}.empty{grid-column:1/-1;padding:25px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:15px}
+@media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}.feature-grid{grid-template-columns:repeat(2,1fr)}.hero{grid-template-columns:1fr}.visual{min-height:360px}.about{grid-template-columns:1fr}}
+@media(max-width:680px){.nav{height:68px}.links{display:none;position:absolute;top:66px;left:4%;right:4%;padding:17px;background:#111a2d;border:1px solid var(--line);border-radius:15px;flex-direction:column;z-index:20;box-shadow:var(--shadow)}.links.open{display:flex}.menu{display:block}.nav-actions .btn{display:none}.hero{padding:53px 0 48px;min-height:auto;gap:8px}.hero h1{letter-spacing:-1.8px}.visual{min-height:320px}.grid,.split{grid-template-columns:1fr}.feature-grid{grid-template-columns:1fr 1fr}section{padding:58px 0}.stats{gap:8px}.stat{padding:11px}.stat b{font-size:1rem}.stat span{font-size:.72rem}.cta,.video-box{align-items:flex-start;flex-direction:column;padding:25px}.card{padding:21px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+
+.service-price{display:inline-block;margin-top:13px;color:var(--cyan);font-weight:850;font-size:1rem}
+.tool-output{width:100%;background:#080e1b;border:1px solid var(--line);border-radius:11px;padding:12px;color:white;margin-top:10px}
+.upload-label{display:inline-flex;align-items:center;gap:8px;border:1px dashed #62e4ff88;border-radius:12px;padding:12px;color:var(--cyan);cursor:pointer;margin-top:10px}
+.upload-label input{max-width:190px}
+.preview-img{display:block;max-width:100%;max-height:240px;object-fit:contain;margin-top:12px;border-radius:12px}
+
+.orb-stars{position:absolute;inset:7%;z-index:2;border-radius:50%;overflow:hidden;pointer-events:none}
+.orb-stars i{position:absolute;width:3px;height:3px;border-radius:50%;background:#efffff;box-shadow:0 0 5px 2px #9cecff,0 0 12px #65dfff;opacity:.35;animation:starTwinkle 2.8s ease-in-out infinite}
+.orb-stars i:nth-child(1){left:19%;top:22%;animation-delay:.1s}
+.orb-stars i:nth-child(2){left:38%;top:13%;width:2px;height:2px;animation-delay:1.2s}
+.orb-stars i:nth-child(3){left:66%;top:24%;animation-delay:.7s}
+.orb-stars i:nth-child(4){left:78%;top:43%;width:2px;height:2px;animation-delay:1.8s}
+.orb-stars i:nth-child(5){left:27%;top:57%;animation-delay:1.4s}
+.orb-stars i:nth-child(6){left:52%;top:46%;width:2px;height:2px;animation-delay:.4s}
+.orb-stars i:nth-child(7){left:70%;top:68%;animation-delay:2s}
+.orb-stars i:nth-child(8){left:43%;top:79%;width:2px;height:2px;animation-delay:.9s}
+.orb-stars i:nth-child(9){left:13%;top:72%;animation-delay:1.6s}
+.orb-stars i:nth-child(10){left:87%;top:29%;width:2px;height:2px;animation-delay:2.3s}
+.orb-stars i:nth-child(11){left:57%;top:18%;width:2px;height:2px;animation-delay:1.1s}
+.orb-stars i:nth-child(12){left:34%;top:37%;animation-delay:2.1s}
+@keyframes starTwinkle{0%,100%{opacity:.18;transform:scale(.65)}45%{opacity:1;transform:scale(1.7)}65%{opacity:.55;transform:scale(1)}}
+</style>
+</head>
+<body>
+<header class="topbar">
+ <div class="wrap nav">
+  <a class="brand" href="#home" aria-label="Shashi AI Tech Home">SHASHI <span>AI TECH</span></a>
+  <nav class="links" id="navLinks" aria-label="Main navigation">
+   <a href="#home">Home</a><a href="#ai-tools">AI Tools</a><a href="#digital-tools">Free Tools</a><a href="#learn">Learn</a><a href="#news">Tech Updates</a><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a>
+  </nav>
+  <div class="nav-actions"><a class="btn small primary" href="#ai-tools">Explore Tools ↗</a><button class="menu" id="menuBtn" aria-label="Toggle navigation" aria-expanded="false">☰</button></div>
+ </div>
+</header>
+<main>
+<section class="wrap hero" id="home">
+ <div>
+  <div class="pill"><span class="dot"></span> TECHNOLOGY • AI • INNOVATION</div>
+  <h1>Explore the<br><em>Future with AI.</em></h1>
+  <p class="lead">नमस्ते! Shashi AI Tech में आपका स्वागत है। AI टूल्स, नई टेक्नोलॉजी, डिजिटल स्किल्स और उपयोगी टिप्स को आसान हिंदी और English में सीखें।</p>
+  <div class="actions"><a class="btn primary" href="#ai-tools">Explore AI Tools ↗</a><a class="btn" href="#learn">Start Learning</a></div>
+  <div class="stats"><div class="stat"><b>AI Tools</b><span>Useful resources</span></div><div class="stat"><b>Hindi + English</b><span>Easy learning</span></div><div class="stat"><b>Free to start</b><span>No signup here</span></div></div>
+ </div>
+ <div class="visual" aria-label="Abstract futuristic AI illustration"><div class="orb"><span class="orb-surface"></span><span class="orb-shine"></span><span class="orb-stars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span></div><div class="float f1">✦ AI Made Simple</div><div class="float f2">◈ Create • Learn • Build</div><div class="float f3">⌘ Innovation</div></div>
+</section>
+<section class="wrap" id="discover">
+ <div class="section-head"><div class="kicker">What you'll discover</div><h2>Technology, made simple.</h2><p>एक ही जगह पर AI resources, practical digital tools और सीखने के आसान रास्ते।</p></div>
+ <div class="feature-grid">
+  <div class="mini">🤖 <b>Artificial Intelligence</b><span>AI assistants, image और video tools.</span></div>
+  <div class="mini">🧠 <b>Tech Explainers</b><span>कठिन तकनीक की आसान जानकारी.</span></div>
+  <div class="mini">🛠️ <b>Digital Tools</b><span>रोजमर्रा के काम के browser tools.</span></div>
+  <div class="mini">🎓 <b>Hindi Tutorials</b><span>Step-by-step सीखें और बनाएं.</span></div>
+ </div>
+</section>
+<section class="wrap" id="ai-tools">
+ <div class="section-head"><div class="kicker">Explore AI</div><h2>AI tools for your ideas.</h2><p>लोकप्रिय AI सेवाओं के आधिकारिक लिंक। किसी सेवा की अपनी usage limits या paid plans हो सकते हैं।</p></div>
+ <div class="toolbar"><input class="search" id="toolSearch" type="search" placeholder="AI tool खोजें..." aria-label="Search AI tools"><div class="filters" id="toolFilters"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="chat">AI Chat</button><button class="filter" data-filter="image">Image</button><button class="filter" data-filter="video">Video</button><button class="filter" data-filter="work">Work & Design</button></div></div>
+ <div class="grid" id="toolGrid">
+  <article class="card tool-card" data-category="chat" data-name="chatgpt openai ai assistant writing"><div class="ico">💬</div><h3>ChatGPT</h3><p>सवालों के जवाब, writing, learning, planning और coding में मदद।</p><a class="card-link" href="https://chatgpt.com/" target="_blank" rel="noopener">Open ChatGPT ↗</a></article>
+  <article class="card tool-card" data-category="chat" data-name="gemini google ai assistant research"><div class="ico">✨</div><h3>Google Gemini</h3><p>Google का AI assistant—ideas, explanations और multimodal मदद।</p><a class="card-link" href="https://gemini.google.com/" target="_blank" rel="noopener">Open Gemini ↗</a></article>
+  <article class="card tool-card" data-category="chat" data-name="claude anthropic ai writing coding"><div class="ico">◉</div><h3>Claude</h3><p>लंबे documents, writing, analysis और coding के लिए AI assistant।</p><a class="card-link" href="https://claude.ai/" target="_blank" rel="noopener">Open Claude ↗</a></article>
+  <article class="card tool-card" data-category="image" data-name="adobe firefly image generator design"><div class="ico">🎨</div><h3>Adobe Firefly</h3><p>AI image generation और creative design workflows explore करें।</p><a class="card-link" href="https://firefly.adobe.com/" target="_blank" rel="noopener">Open Firefly ↗</a></article>
+  <article class="card tool-card" data-category="image" data-name="ideogram image text poster generator"><div class="ico">🖼️</div><h3>Ideogram</h3><p>Images, posters और text-based visual concepts बनाने का टूल।</p><a class="card-link" href="https://ideogram.ai/" target="_blank" rel="noopener">Open Ideogram ↗</a></article>
+  <article class="card tool-card" data-category="video" data-name="runway ai video generator"><div class="ico">🎬</div><h3>Runway</h3><p>AI video generation और creative video editing tools।</p><a class="card-link" href="https://runwayml.com/" target="_blank" rel="noopener">Open Runway ↗</a></article>
+  <article class="card tool-card" data-category="video" data-name="pika ai video animation"><div class="ico">🎞️</div><h3>Pika</h3><p>AI-powered video और animation creation explore करें।</p><a class="card-link" href="https://pika.art/" target="_blank" rel="noopener">Open Pika ↗</a></article>
+  <article class="card tool-card" data-category="work" data-name="canva design presentations social"><div class="ico">🪄</div><h3>Canva</h3><p>Presentations, posters, social graphics और visual content बनाएं।</p><a class="card-link" href="https://www.canva.com/" target="_blank" rel="noopener">Open Canva ↗</a></article>
+  <article class="card tool-card" data-category="work" data-name="notion productivity notes workspace"><div class="ico">📚</div><h3>Notion</h3><p>Notes, documents, project planning और personal workspace।</p><a class="card-link" href="https://www.notion.so/" target="_blank" rel="noopener">Open Notion ↗</a></article>
+ </div><p class="note">ध्यान दें: ये बाहरी सेवाओं के लिंक हैं, Shashi AI Tech के अंदर चलने वाले अपने AI models नहीं। Free access, login और limits संबंधित provider तय करता है।</p>
+</section>
+<section class="wrap" id="digital-tools">
+ <div class="section-head"><div class="kicker">Free digital tools</div><h2>छोटे काम, आसान tools.</h2><p>ये tools आपके browser में ही काम करते हैं। आपका text किसी server पर upload नहीं होता।</p></div>
+ <div class="split">
+  <div class="panel toolbox"><div class="ico">🔤</div><h3>Word & Character Counter</h3><p class="muted">अपना text लिखें या paste करें। शब्द, characters और reading time तुरंत देखें।</p><textarea id="counterText" placeholder="यहाँ अपना text लिखें..."></textarea><div class="row"><span class="tag">Words: <b id="words">0</b></span><span class="tag">Characters: <b id="chars">0</b></span><span class="tag">Reading: <b id="reading">0 min</b></span></div></div>
+  <div class="panel toolbox"><div class="ico">🔠</div><h3>Text Case Converter</h3><p class="muted">Text को UPPERCASE, lowercase या Title Case में बदलें।</p><textarea id="caseText" placeholder="Convert करने के लिए text लिखें..."></textarea><div class="row"><button class="btn small" data-case="upper">UPPERCASE</button><button class="btn small" data-case="lower">lowercase</button><button class="btn small" data-case="title">Title Case</button><button class="btn small" id="copyCase">Copy</button></div><div class="result" id="caseResult" aria-live="polite"></div></div>
+  <div class="panel toolbox"><div class="ico">🔐</div><h3>Secure Password Generator</h3><p class="muted">अपने browser में random password बनाएं। इसे किसी के साथ share न करें।</p><div class="row"><label class="tag">Length <input id="passLength" type="number" min="8" max="40" value="16" style="width:48px;background:transparent;color:white;border:0"></label><label class="tag"><input id="passSymbols" type="checkbox" checked> Symbols</label></div><input id="passwordOutput" class="search" readonly placeholder="Generated password यहाँ आएगा" style="width:100%;margin-top:12px"><div class="row"><button class="btn primary small" id="makePassword">Generate</button><button class="btn small" id="copyPassword">Copy</button></div><div class="result" id="passResult" aria-live="polite"></div></div>
+  <div class="panel toolbox"><div class="ico">🧩</div><h3>JSON Formatter</h3><p class="muted">JSON को validate और readable format में बदलें।</p><textarea id="jsonInput" placeholder='{"name":"Shashi AI Tech","type":"website"}'></textarea><div class="row"><button class="btn primary small" id="formatJson">Format JSON</button><button class="btn small" id="copyJson">Copy Result</button></div><div class="result" id="jsonResult" aria-live="polite"></div></div>
+ </div>
+</section>
+
+<section class="wrap" id="more-tools">
+ <div class="section-head"><div class="kicker">More browser tools</div><h2>और भी काम के Free Tools.</h2><p>ये सुविधाएँ आपके browser में चलती हैं। किसी AI API key या paid backend की जरूरत नहीं है।</p></div>
+ <div class="split">
+  <div class="panel toolbox">
+   <div class="ico">％</div><h3>Percentage Calculator</h3><p class="muted">किसी संख्या का प्रतिशत तुरंत निकालें।</p>
+   <input class="search" id="pctValue" type="number" placeholder="Number (जैसे 500)" style="width:100%;margin:8px 0">
+   <input class="search" id="pctRate" type="number" placeholder="Percentage (जैसे 10)" style="width:100%">
+   <div class="row"><button class="btn primary small" id="calcPct">Calculate</button></div><div class="result" id="pctResult" aria-live="polite"></div>
+  </div>
+  <div class="panel toolbox">
+   <div class="ico">🖼️</div><h3>Image Resizer</h3><p class="muted">Image चुनें, नई width डालें और resized image डाउनलोड करें।</p>
+   <label class="upload-label">Choose image <input id="resizeFile" type="file" accept="image/*"></label>
+   <input class="search" id="resizeWidth" type="number" min="1" max="6000" value="800" placeholder="New width" style="width:100%;margin-top:10px">
+   <div class="row"><button class="btn primary small" id="resizeBtn">Resize Image</button></div>
+   <div class="result" id="resizeResult" aria-live="polite"></div><img id="resizePreview" class="preview-img hidden" alt="Resized image preview"><a id="downloadImage" class="card-link hidden" download="shashi-ai-tech-resized.png">Download resized image ↓</a>
+  </div>
+ </div>
+</section>
+
+<section class="wrap" id="learn">
+ <div class="section-head"><div class="kicker">Learn & grow</div><h2>Technology सीखें, step by step.</h2><p>शुरुआत करने वालों के लिए practical learning topics। Tutorials धीरे-धीरे नए लेखों और videos से अपडेट किए जा सकते हैं।</p></div>
+ <div class="grid">
+  <article class="card"><div class="ico">🤖</div><h3>AI की शुरुआत</h3><p>AI क्या है, AI assistant कैसे इस्तेमाल करें और अच्छे prompts कैसे लिखें।</p><a class="card-link" href="https://www.youtube.com/results?search_query=AI+basics+Hindi" target="_blank" rel="noopener">Hindi lessons खोजें ↗</a></article>
+  <article class="card"><div class="ico">🌐</div><h3>Website बनाना सीखें</h3><p>HTML, CSS, GitHub और Cloudflare Pages से website publish करने की basics।</p><a class="card-link" href="https://developer.mozilla.org/en-US/docs/Learn_web_development" target="_blank" rel="noopener">Web learning guide ↗</a></article>
+  <article class="card"><div class="ico">📱</div><h3>App Development</h3><p>Mobile app, UI design, testing और deployment की शुरुआती जानकारी।</p><a class="card-link" href="https://developer.android.com/" target="_blank" rel="noopener">Android Developers ↗</a></article>
+  <article class="card"><div class="ico">🧑‍💻</div><h3>Coding & Tools</h3><p>Code editors, Git, debugging और developer tools के बारे में सीखें।</p><a class="card-link" href="https://github.com/skills" target="_blank" rel="noopener">GitHub Skills ↗</a></article>
+  <article class="card"><div class="ico">🎥</div><h3>AI Video Creation</h3><p>Script, voiceover, editing और copyright-aware video workflow समझें।</p><a class="card-link" href="https://www.youtube.com/results?search_query=AI+video+creation+Hindi" target="_blank" rel="noopener">Video lessons खोजें ↗</a></article>
+  <article class="card"><div class="ico">🛡️</div><h3>Online Safety</h3><p>Strong passwords, phishing awareness और account security की basics।</p><a class="card-link" href="https://www.cisa.gov/secure-our-world" target="_blank" rel="noopener">Security guide ↗</a></article>
+ </div>
+</section>
+<section class="wrap" id="news">
+ <div class="section-head"><div class="kicker">Tech updates</div><h2>Stay curious. Stay updated.</h2><p>विश्वसनीय technology sources से ताजा जानकारी पढ़ें। इस section में फिलहाल source links हैं, auto-updating news feed नहीं।</p></div>
+ <div class="grid">
+  <article class="card"><div class="ico">📰</div><h3>Google Technology</h3><p>Google के products, AI research और technology announcements।</p><a class="card-link" href="https://blog.google/technology/" target="_blank" rel="noopener">Read Google updates ↗</a></article>
+  <article class="card"><div class="ico">🧪</div><h3>OpenAI News</h3><p>AI research, product updates और OpenAI announcements।</p><a class="card-link" href="https://openai.com/news/" target="_blank" rel="noopener">Read OpenAI news ↗</a></article>
+  <article class="card"><div class="ico">💻</div><h3>Microsoft Tech</h3><p>Cloud, AI, developer tools और Microsoft technology news।</p><a class="card-link" href="https://news.microsoft.com/" target="_blank" rel="noopener">Read Microsoft news ↗</a></article>
+ </div>
+</section>
+<section class="wrap" id="videos">
+ <div class="video-box"><div><div class="kicker">Watch & explore</div><h3>Video Gallery — coming soon</h3><p>यहाँ Shashi AI Tech के YouTube videos और explainers जोड़े जा सकते हैं।</p></div><a class="btn primary" href="https://www.youtube.com/" target="_blank" rel="noopener">Visit YouTube ↗</a></div>
+</section>
+<section class="wrap" id="about">
+ <div class="about"><div class="aboutbox"><strong>AI × Tech</strong><span>Learn • Create • Innovate</span><div class="tags"><span class="tag">AI Learning</span><span class="tag">Hindi Tutorials</span><span class="tag">Digital Skills</span></div></div><div><div class="kicker">About Shashi AI Tech</div><h2 style="font-size:clamp(2rem,4vw,3rem);line-height:1.15;margin:8px 0">Curiosity creates the future.</h2><p class="muted">Shashi AI Tech एक independent technology learning platform है। हमारा उद्देश्य AI, नई तकनीक और digital tools को सरल भाषा में समझाना और लोगों को digital skills सीखने में मदद करना है।</p><p class="muted">यह वेबसाइट अभी एक free static website है। AI providers और अन्य third-party सेवाओं के अपने नियम, privacy policies और usage limits हैं।</p></div></div>
+</section>
+
+
+<section class="wrap" id="why-shashi">
+ <div class="section-head"><div class="kicker">Why Shashi AI Tech</div><h2>Useful first. Hype later.</h2><p>हमारा फोकस है साफ जानकारी, काम के tools और practical learning—बिना झूठे वादों या नकली reviews के।</p></div>
+ <div class="feature-grid">
+  <div class="mini">🧪 <b>Practical resources</b><span>काम के tools और आसान examples.</span></div>
+  <div class="mini">🔒 <b>Browser-first tools</b><span>जहाँ संभव हो, processing आपके device पर.</span></div>
+  <div class="mini">📘 <b>Simple explanations</b><span>Hindi और English में step-by-step जानकारी.</span></div>
+  <div class="mini">🤝 <b>Direct enquiries</b><span>Services और collaboration के लिए संपर्क करें.</span></div>
+ </div>
+</section>
+
+<section class="wrap" id="services">
+ <div class="section-head"><div class="kicker">Digital services</div><h2>अपने Idea को Online पहचान दें.</h2><p>Shashi AI Tech के जरिए basic digital services के लिए enquiry भेजें। कीमत और काम का scope बातचीत के बाद तय होगा।</p></div>
+ <div class="grid">
+  <article class="card"><div class="ico">🌐</div><h3>Website Design</h3><p>Personal, portfolio और small business के लिए responsive static websites।</p><span class="service-price">Starting from ₹3,000*</span></article>
+  <article class="card"><div class="ico">🎬</div><h3>AI Video Editing</h3><p>Short-form videos, captions, basic editing और creator content support।</p><span class="service-price">Starting from ₹500*</span></article>
+  <article class="card"><div class="ico">🎨</div><h3>Thumbnail & Posters</h3><p>YouTube thumbnails, social media creatives और simple promotional designs।</p><span class="service-price">Starting from ₹199*</span></article>
+ </div>
+ <p class="legal" style="margin-top:14px">*ये शुरुआती indicative prices हैं, final quotation नहीं। काम, revisions और third-party costs के अनुसार कीमत बदलेगी। अभी payment gateway या online checkout उपलब्ध नहीं है।</p>
+ <div class="actions"><a class="btn primary" href="#contact">Enquire about a service ↗</a></div>
+</section>
+
+<section class="wrap" id="contact">
+ <div class="section-head"><div class="kicker">Get in touch</div><h2>Have an idea or suggestion?</h2><p>सुझाव, सवाल या collaboration के लिए message तैयार करें। भेजने के लिए आपके device का email app खुलेगा।</p></div>
+ <div class="split"><div class="panel"><form class="contact-form" id="contactForm"><input id="contactName" required maxlength="80" placeholder="आपका नाम"><input id="contactEmail" type="email" required maxlength="120" placeholder="आपका Email"><textarea id="contactMessage" required maxlength="1500" placeholder="अपना message लिखें..."></textarea><button class="btn primary" type="submit">Prepare Email ↗</button><p class="legal">यह form कोई data server पर save नहीं करता। Submit करने पर आपके device का email app खुलेगा।</p></form></div><div class="panel"><div class="ico">✉️</div><h3>Contact Shashi AI Tech</h3><p class="muted">आपका message आपके email app में draft होगा। भेजने से पहले आप उसे जाँच सकते हैं।</p><p class="legal">Email: <a href="mailto:chauhanskant91@gmail.com">chauhanskant91@gmail.com</a></p><a class="card-link" href="#home">Back to top ↑</a></div></div>
+</section>
+<section class="wrap" id="privacy"><div class="panel"><div class="kicker">Privacy Policy</div><h3>Privacy Policy</h3><p class="muted">Last updated: 23 November 2026</p><p class="muted">Shashi AI Tech respects your privacy. This website is a static information and tools website. The built-in text, calculator, password and image utilities are designed to run in your browser. We do not operate a website account or user-submission database through this page.</p><p class="muted">When you use the contact form, your device opens an email draft addressed to chauhanskant91@gmail.com. The message is not sent until you choose to send it in your email app. Your email provider's privacy practices apply to that message.</p><p class="muted">Links to third-party AI services and websites are provided for convenience. Those services have their own privacy policies, terms and data practices. Please review them before sharing personal or sensitive information.</p><p class="muted">We may update this policy when website features change. For privacy questions, contact <a href="mailto:chauhanskant91@gmail.com">chauhanskant91@gmail.com</a>.</p></div></section>
+<section class="wrap" id="terms"><div class="panel"><div class="kicker">Terms of Use</div><h3>Terms of Use</h3><p class="muted">Last updated: 23 November 2026</p><p class="muted">By using Shashi AI Tech, you agree to use this website lawfully and responsibly. Website content and browser utilities are provided for general information and convenience, without a guarantee that every result will be error-free or suitable for a particular purpose.</p><p class="muted">AI tools, external links and third-party services are operated by their respective providers. Their availability, pricing, limits, terms and privacy policies may change. You are responsible for reviewing those terms before using them.</p><p class="muted">Do not use the website or its tools for unlawful, harmful or abusive activities. Website content may be updated, changed or removed without notice. To report an issue or ask a question, email <a href="mailto:chauhanskant91@gmail.com">chauhanskant91@gmail.com</a>.</p></div></section>
+</main>
+<footer class="footer"><div class="wrap foot"><span>© <span id="year"></span> Shashi AI Tech. All rights reserved.</span><div class="footlinks"><a href="#about">About</a><a href="#contact">Contact</a><a href="#privacy">Privacy Policy</a><a href="#terms">Terms</a><a href="#home">Back to top ↑</a></div><span>Independently created by Shashi AI Tech ✦</span></div></footer>
+<script>
+const $=s=>document.querySelector(s), $$=s=>Array.from(document.querySelectorAll(s));
+$('#year').textContent=new Date().getFullYear();
+const menu=$('#menuBtn'),nav=$('#navLinks');menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));});$$('#navLinks a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false')}));
+let activeFilter='all';function filterTools(){const q=$('#toolSearch').value.trim().toLowerCase();let shown=0;$$('.tool-card').forEach(card=>{const ok=(activeFilter==='all'||card.dataset.category===activeFilter)&&(!q||card.dataset.name.includes(q)||card.innerText.toLowerCase().includes(q));card.classList.toggle('hidden',!ok);if(ok)shown++});let empty=$('#noTools');if(!shown){if(!empty){empty=document.createElement('div');empty.id='noTools';empty.className='empty';empty.textContent='कोई matching tool नहीं मिला।';$('#toolGrid').appendChild(empty)}}else if(empty)empty.remove()}
+$('#toolSearch').addEventListener('input',filterTools);$$('.filter').forEach(b=>b.addEventListener('click',()=>{activeFilter=b.dataset.filter;$$('.filter').forEach(x=>x.classList.toggle('active',x===b));filterTools()}));
+function updateCount(){const t=$('#counterText').value;const words=t.trim()?t.trim().split(/\s+/u).length:0;$('#words').textContent=words;$('#chars').textContent=t.length;$('#reading').textContent=(words?Math.max(1,Math.ceil(words/200)):0)+' min'}$('#counterText').addEventListener('input',updateCount);
+$$('[data-case]').forEach(b=>b.addEventListener('click',()=>{const t=$('#caseText');if(b.dataset.case==='upper')t.value=t.value.toLocaleUpperCase();if(b.dataset.case==='lower')t.value=t.value.toLocaleLowerCase();if(b.dataset.case==='title')t.value=t.value.toLocaleLowerCase().replace(/(^|\s)\S/gu,m=>m.toLocaleUpperCase());$('#caseResult').textContent='Text converted.'}));
+async function copyText(value,result){try{await navigator.clipboard.writeText(value);result.textContent='Copied to clipboard.'}catch(e){result.textContent='Copy unavailable in this browser. Please select and copy manually.'}}
+$('#copyCase').addEventListener('click',()=>copyText($('#caseText').value,$('#caseResult')));
+$('#makePassword').addEventListener('click',()=>{const n=Math.min(40,Math.max(8,Number($('#passLength').value)||16));const chars='ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz23456789'+($('#passSymbols').checked?'!@#$%&*_-+=':'');const data=new Uint32Array(n);crypto.getRandomValues(data);let out='';for(let i=0;i<n;i++)out+=chars[data[i]%chars.length];$('#passwordOutput').value=out;$('#passResult').textContent='Password generated in this browser.'});$('#copyPassword').addEventListener('click',()=>copyText($('#passwordOutput').value,$('#passResult')));
+let formattedJSON='';$('#formatJson').addEventListener('click',()=>{try{formattedJSON=JSON.stringify(JSON.parse($('#jsonInput').value),null,2);$('#jsonInput').value=formattedJSON;$('#jsonResult').textContent='Valid JSON — formatted successfully.'}catch(e){formattedJSON='';$('#jsonResult').textContent='Invalid JSON. Please check commas, quotes and brackets.'}});$('#copyJson').addEventListener('click',()=>copyText(formattedJSON||$('#jsonInput').value,$('#jsonResult')));
+
+$('#calcPct').addEventListener('click',()=>{const v=Number($('#pctValue').value),p=Number($('#pctRate').value);if($('#pctValue').value===''||$('#pctRate').value===''){ $('#pctResult').textContent='दोनों numbers भरें।';return;}$('#pctResult').textContent=p+'% of '+v+' = '+(v*p/100).toLocaleString('en-IN',{maximumFractionDigits:4});});
+$('#resizeBtn').addEventListener('click',()=>{const file=$('#resizeFile').files[0],w=Math.max(1,Math.min(6000,Number($('#resizeWidth').value)||800));if(!file){$('#resizeResult').textContent='पहले image चुनें।';return;}if(!file.type.startsWith('image/')){$('#resizeResult').textContent='कृपया image file चुनें।';return;}const reader=new FileReader();reader.onload=()=>{const img=new Image();img.onload=()=>{const h=Math.max(1,Math.round(img.height*(w/img.width)));const canvas=document.createElement('canvas');canvas.width=w;canvas.height=h;const ctx=canvas.getContext('2d');ctx.drawImage(img,0,0,w,h);canvas.toBlob(blob=>{if(!blob){$('#resizeResult').textContent='Image resize नहीं हो पाया।';return;}const url=URL.createObjectURL(blob);$('#resizePreview').src=url;$('#resizePreview').classList.remove('hidden');$('#downloadImage').href=url;$('#downloadImage').classList.remove('hidden');$('#resizeResult').textContent='Done: '+w+' × '+h+' px. Image आपके browser में process हुई।';},'image/png');};img.onerror=()=>$('#resizeResult').textContent='Image पढ़ने में समस्या हुई।';img.src=reader.result;};reader.readAsDataURL(file);});
+
+$('#contactForm').addEventListener('submit',e=>{e.preventDefault();const name=$('#contactName').value.trim(),email=$('#contactEmail').value.trim(),message=$('#contactMessage').value.trim();const subject=encodeURIComponent('Message for Shashi AI Tech');const body=encodeURIComponent('Name: '+name+'\nReply email: '+email+'\n\n'+message);window.location.href='mailto:chauhanskant91@gmail.com?subject='+subject+'&body='+body;});
+</script>
+</body>
+</html>
